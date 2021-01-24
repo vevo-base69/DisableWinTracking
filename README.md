@@ -1,5 +1,7 @@
-# DO NOT SUBMIT NEW ISSUES OR PULL REQUESTS
-## THIS REPOSITORY IS HERE FOR ARCHIVAL PURPOSES ONLY. THIS SOFTWARE RECEIVED IT'S LAST RELEASE ON 01/2019 AND LAST COMMIT ON 12/2020.
+# This repository is a living fork of the last stable release of [DisableWinTracking](https://github.com/10se1ucgo/DisableWinTracking)
+## [DisableWinTracking](https://github.com/10se1ucgo/DisableWinTracking) was archived on 12/2020, and had it's last release on 01/2019
+## We don't want the goodness to die, so forked DWT!
+## Please help us fix bugs and improve this software! We can't do it without you!
 
 # --------------------------
 
@@ -8,7 +10,8 @@
 A tool that I created to use some of the known methods of disabling tracking in Windows 10.
 
 <!-- ![screenshot](https://i.imgur.com/qfC2elN.png) -->
-![screenshot](http://i.imgur.com/WINUxAj.png)
+<!-- ![screenshot](http://i.imgur.com/WINUxAj.png) -->
+![screenshot](web/dwt-screenshot.png)
 
 ## CYRILLIC LANGUAGES WARNING
 
