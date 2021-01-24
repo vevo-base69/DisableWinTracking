@@ -1,6 +1,7 @@
 $releaseVersion='3.2.4'
 $pyVersion='cp39'
 
+# Setup
 # Create virtual env if needed
 if(!(test-path env))
 {
@@ -11,9 +12,15 @@ if(!(test-path env))
 
 pip install -r requirements.txt
 
+# Clean
+Remove-Item -Recurse dist\*
+Remove-Item -Recurse public\*
+
+# Build
 #pyinstaller --onefile dwt_about.py dwt_util.py dwt.py --icon=main.ico
 pyinstaller dwt.spec
 
+# Package
 Copy-Item COPYING dist\
 Copy-Item COPYING.LESSER dist\
 Copy-Item README.md dist\
