@@ -354,7 +354,7 @@ class MainPanel(wx.Panel):
 			'diagnostics.support.microsoft.com', 'ec.atdmt.com', 'feedback.microsoft-hohm.com',
 			'feedback.search.microsoft.com', 'feedback.windows.com', 'flex.msn.com', 'g.msn.com', 'h1.msn.com',
 			'i1.services.social.microsoft.com', 'i1.services.social.microsoft.com.nsatc.net',
-			'lb1.www.ms.akadns.net', 'live.rads.msn.com', 'm.adnxs.com', 'msedge.net', 'msftncsi.com',
+			'lb1.www.ms.akadns.net', 'live.rads.msn.com', 'm.adnxs.com', 'msedge.net',
 			'msnbot-65-55-108-23.search.msn.com', 'msntest.serving-sys.com', 'oca.telemetry.microsoft.com',
 			'oca.telemetry.microsoft.com.nsatc.net', 'pre.footprintpredict.com', 'preview.msn.com',
 			'rad.live.com', 'rad.msn.com', 'redir.metaservices.microsoft.com',
@@ -370,7 +370,7 @@ class MainPanel(wx.Panel):
 			'vortex-cy2.metron.live.com.nsatc.net', 'vortex-sandbox.data.microsoft.com',
 			'vortex-win.data.metron.live.com.nsatc.net', 'vortex-win.data.microsoft.com',
 			'vortex.data.glbdns2.microsoft.com', 'vortex.data.microsoft.com', 'watson.live.com',
-			'web.vortex.data.microsoft.com', 'www.msftncsi.com'
+			'web.vortex.data.microsoft.com'
 		)
 
 		extra_domains = (
