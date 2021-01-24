@@ -1,6 +1,6 @@
 # This repository is a living fork of the last stable release of [DisableWinTracking](https://github.com/10se1ucgo/DisableWinTracking)
 ## [DisableWinTracking](https://github.com/10se1ucgo/DisableWinTracking) was archived on 12/2020, and had it's last release on 01/2019
-## We don't want the goodness to die, so forked DWT!
+## We don't want the goodness to die, so we forked DWT!
 ## Please help us fix bugs and improve this software! We can't do it without you!
 
 # --------------------------
@@ -111,6 +111,14 @@ This action requires reboot computer for completely applying.
 
 Selecting "Disable" will simply stop the services from being able to run.
 Selecting the "Delete" choice will completely delete the tracking services.
+
+## Changes in this fork
+This fork changes a few things from the original [DisableWinTracking](https://github.com/10se1ucgo/DisableWinTracking)
+
+- Fixes Windows 10 Network Connectivity Status Indicator (NCSI). No longer adds these hosts file entries:<br>
+ 0.0.0.0 msftncsi.com<br>
+ 0.0.0.0 www.msftncsi.com<br>
+ If your Windows 10 NCSI is broken, we recommend you edit C:\Windows\System32\drivers\etc\hosts and remove any lines containing the text "msftncsi", then save the file. That should fix the issue for you.
 
 ## License
 
