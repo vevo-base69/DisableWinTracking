@@ -1,7 +1,8 @@
 # This repository is a living fork of the last stable release of [DisableWinTracking](https://github.com/10se1ucgo/DisableWinTracking)
-## [DisableWinTracking](https://github.com/10se1ucgo/DisableWinTracking) was archived on 12/2020, and had it's last release on 01/2019
-## We don't want the goodness to die, so we forked DWT!
-## Please help us fix bugs and improve this software! We can't do it without you!
+[DisableWinTracking](https://github.com/10se1ucgo/DisableWinTracking) was archived on 12/2020, and had it's last release on 01/2019
+We don't want the goodness to die, so we forked DWT!
+Please help us fix bugs and improve this software! We can't do it without you!
+See [Changes in this fork](#Changes in this fork) for an overview of what we've changed.
 
 # --------------------------
 
