@@ -2,7 +2,7 @@
 [DisableWinTracking](https://github.com/10se1ucgo/DisableWinTracking) was archived on 12/2020, and had it's last release on 01/2019
 We don't want the goodness to die, so we forked DWT!
 Please help us fix bugs and improve this software! We can't do it without you!
-See [Changes in this fork](#Changes in this fork) for an overview of what we've changed.
+See [Changes in this fork](#changes-in-this-fork) for an overview of what we've changed.
 
 # --------------------------
 
