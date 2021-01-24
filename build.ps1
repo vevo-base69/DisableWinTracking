@@ -11,7 +11,8 @@ if(!(test-path env))
 
 pip install -r requirements.txt
 
-pyinstaller --onefile dwt_about.py dwt_util.py dwt.py
+#pyinstaller --onefile dwt_about.py dwt_util.py dwt.py --icon=main.ico
+pyinstaller dwt.spec
 
 Copy-Item COPYING dist\
 Copy-Item COPYING.LESSER dist\
