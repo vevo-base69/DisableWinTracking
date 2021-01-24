@@ -3,11 +3,13 @@
 
 # Python stuff
 *.py[cod]
+env
 
 # Pyinstaller
 build/
 dist/
 *.spec
+public/
 
 #Sublime Stuff
 *.sublime-project
