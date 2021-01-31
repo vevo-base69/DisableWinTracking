@@ -82,7 +82,7 @@ class ConsoleDialog(wx.Dialog):
 
     def submit_issue(self, event):
         webbrowser.open_new_tab(
-            "https://github.com/10se1ucgo/DisableWinTracking/issues/new"
+            "https://github.com/bitlog2/DisableWinTracking/issues/new"
         )
 
 
