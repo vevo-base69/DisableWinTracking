@@ -57,7 +57,7 @@ def about_dialog(parent):
     about_info.SetCopyright("Copyright (C) 10se1ucgo 2015-{year}".format(year=year))
     about_info.SetDescription("A tool to disable tracking in Windows 10")
     about_info.SetWebSite(
-        "https://github.com/10se1ucgo/DisableWinTracking", "GitHub repository"
+        "https://github.com/bitlog2/DisableWinTracking", "GitHub repository"
     )
     about_info.AddDeveloper("10se1ucgo")
     about_info.AddDeveloper("Ruined1")
@@ -191,7 +191,7 @@ class Licenses(wx.Dialog):
 def update_check(parent):
     try:
         r = urlopen(
-            "https://api.github.com/repos/10se1ucgo/DisableWinTracking/releases/latest"
+            "https://api.github.com/repos/bitlog2/DisableWinTracking/releases/latest"
         )
     except URLError:
         return
