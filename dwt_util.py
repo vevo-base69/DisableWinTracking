@@ -68,15 +68,16 @@ class CalledProcessError(Exception):
 
 
 def is_64bit():
-    if os.name == "nt":
-        os_arch = os.environ["PROCESSOR_ARCHITEW6432"]
-        return True if os_arch == "AMD64" else False
-    else:
+    if os.name != "nt":
         logger.critical(
             "This was only meant to be run on Windows-based system. Specifically, Windows 10."
         )
         os._exit(0)
-    return os_arch
+
+    if os.environ["PROCESSOR_ARCHITECTURE"] == "AMD64" or os.environ["PROCESSOR_ARCHITEW6432"] == "AMD64":
+        return True
+
+    return False
 
 
 def ip_block(ip_list, undo):
