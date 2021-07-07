@@ -1,4 +1,5 @@
-$releaseVersion='3.2.4'
+param([string]$version='3.2.4')
+
 $pyVersion='cp39'
 
 # Setup
@@ -25,4 +26,4 @@ Copy-Item COPYING dist\
 Copy-Item COPYING.LESSER dist\
 Copy-Item README.md dist\
 
-Compress-Archive -Force -Path dist\* -DestinationPath "public\dwt-$releaseVersion-$pyVersion-win_x86.zip"
+Compress-Archive -Force -Path dist\* -DestinationPath "public\dwt-$version-$pyVersion-win_x86.zip"
