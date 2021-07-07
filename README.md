@@ -120,6 +120,7 @@ This fork changes a few things from the original [DisableWinTracking](https://gi
  0.0.0.0 msftncsi.com<br>
  0.0.0.0 www.msftncsi.com<br>
  If your Windows 10 NCSI is broken, we recommend you edit C:\Windows\System32\drivers\etc\hosts and remove any lines containing the text "msftncsi", then save the file. That should fix the issue for you.
+- Upgraded from Python 2.7 to 3.9
 
 ## License
 
