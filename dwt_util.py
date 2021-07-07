@@ -428,6 +428,7 @@ def host_file(entries, undo):
     if undo:
         try:
             with open(hosts_path, "r") as hosts, tempfile.NamedTemporaryFile(
+                mode="w+",
                 delete=False
             ) as temp:
                 for line in hosts:
