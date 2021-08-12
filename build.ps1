@@ -1,4 +1,4 @@
-param([string]$version='3.2.4')
+$version = Select-String -Path .\dwt_about.py -Pattern '^__version__ = "([0-9.]+)"$' | % { "$($_.matches.groups[1])" }
 
 $pyVersion='cp39'
 
