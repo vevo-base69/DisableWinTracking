@@ -127,7 +127,7 @@ class MainPanel(wx.Panel):
         self.picked_extra = []
         self.picked_ips = []
 
-        self.service_check = wx.CheckBox(self, label="Services")
+        self.service_check = wx.CheckBox(self, label="Block Services")
         self.service_check.SetToolTip(
             "Disables or deletes tracking services. Choose option in 'Services Method'"
         )
@@ -137,14 +137,14 @@ class MainPanel(wx.Panel):
             "Clears Dianostic Tracking log and prevents modification to it. "
             "Cannot be undone automatically."
         )
-
+	
         # Telemetry checkbox
-        self.telemetry_check = wx.CheckBox(self, label="Telemetry")
+        self.telemetry_check = wx.CheckBox(self, label="Block Telemetry")
         self.telemetry_check.SetToolTip(
             "Sets 'AllowTelemetry' to 0. "
             "On non-Enterprise OS editions, requires HOSTS file modification."
         )
-
+	
         # HOSTS file checkbox
         self.host_check = wx.CheckBox(self, label="Block tracking domains")
         self.host_check.SetToolTip(
@@ -345,7 +345,7 @@ class MainPanel(wx.Panel):
             self.settings(event=None)
 
         undo = bool(self.mode_rad.GetSelection())
-
+	
         if self.ip_check.IsChecked():
             dwt_util.ip_block(self.picked_ips, undo=undo)
         if self.diagtrack_check.IsChecked():
